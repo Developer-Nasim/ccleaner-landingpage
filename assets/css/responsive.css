@@ -1,0 +1,159 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-wrp {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .section_title {
+        margin-bottom: 40px;
+    }
+    .feature-area .section_title {
+        margin-bottom: 20px;
+    }
+    .featuresBrand img {
+        width: 20%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .fgr-area {
+        padding: 50px 0; 
+        margin-top: 0px;
+    }
+    .sayHi-wrp {
+        margin-bottom: 40px;
+    }
+    .pricings_blks { 
+        transform: scale(.9);
+    }
+
+
+
+
+
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    body{
+        font-size: 14px;
+    }
+    .header-area {
+        padding: 15px 0; 
+    }
+    .pd-70 {
+        padding: 40px 0;
+    }
+    .hero-wrp {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .hero-wrp p {
+        font-size: 20px; 
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    a.theme-btn { 
+        padding: 7px 20px; 
+    }
+    .section_title {
+        margin-bottom: 40px;
+    }
+    .feature-area .section_title {
+        margin-bottom: 20px;
+    }
+    .featuresBrand img {
+        width: 29%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .fgr-area {
+        padding: 50px 0; 
+        margin-top: 0px;
+    }
+    .sayHi-wrp {
+        margin-bottom: 40px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    .track-area .col-md-4.mrt-70 {
+        margin: 0;
+    }
+    .fgr-wrp p {
+        font-size: 18px;   
+    }
+    .scan-wrp {
+        margin-top: 30px;
+    }
+    .dgpr-blk { 
+        padding: 10px 10px;
+        margin-bottom: 20px; 
+    }
+    .digital-fingarprint-area a.theme-btn { 
+        margin-top: 20px;
+    }
+    .accordion-item button { 
+        padding: 10px 15px;
+        margin-bottom: 0px;  
+        font-size: 14px; 
+    }
+    .sayhi-right ul li {
+        width: 100%;  
+    }
+    .pricings_blks {
+        transform: scale(1);
+        flex-wrap: wrap;
+        margin-top: 0;
+        padding: 0;
+    }
+    .pricing-blk {
+        transform: scale(1) !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .pricing-blk::after{
+        display: none;
+    }
+    .pricing-blk h4 {
+        text-align: center !important;
+    }
+    .cta-wrp p {
+        font-size: 18px; 
+        margin: 20px 0;
+    } 
+    footer { 
+        padding-top: 40px;
+    }
+    .footer-bottom {
+        padding: 30px 0; 
+        margin-top: 0px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+
+
+
+
+
+
+
+
+} 
