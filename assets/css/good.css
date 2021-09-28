@@ -445,9 +445,7 @@ a.theme-btn:hover{
 .fgr-wrp h1{
   font-size: 38px;
 }
-.fgr-wrp{
-  background: #fff;
-}
+
 
 /* Track area END And Scan-area STARTED */
 
@@ -642,7 +640,6 @@ a.theme-btn:hover{
   background-color: #fff;
   opacity: .5;
   border-radius: 10px;
-  display: none;
 }
 .pricing-blk.active::after{
   display: none;
